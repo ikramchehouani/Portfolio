@@ -1,0 +1,284 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>ProcEDE</title>
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/esgnn.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+
+
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "tooplate_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script> 
+
+
+</head>
+
+<body>
+
+<div id="tooplate_wrapper">
+	
+    <div id="tooplate_header">
+        <div id="site_title"><h1><a href="index.html"></a></h1></div>
+        <div id="tooplate_menu" class="ddsmoothmenu">
+            <ul>
+                <li><a href="index.html" >Accueil</a></li>
+                <li><a class="selected">ProcEDE</a>
+                    <ul>
+                        <li><a href="about.html">Presentation generale</a></li>
+                       
+                        <li><a href="mbr.html"class="selected">Membres de la structure</a></li>
+                        <li><a href="adr.html">Adresses</a></li>
+                   
+                        
+                  </ul>
+                </li>
+                <li><a>Recherche</a>
+                    <ul>
+                        <li><a href="rech.html">Organisation generale</a></li>
+                        <li><a href="t1.html">1. Modelisation des transferts </a></li>
+                        <li><a href="t2.html">2. Mesures et controle des procedes</a></li>
+                        <li><a href="t3.html">3. Procedes et materiaux pour l energie et efficacite energetique </a></li>
+                  </ul>
+                </li>
+                <li><a href="doc.html">Liste des doctorants</a></li>
+                
+               
+            </ul>
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- END of tooplate_header -->
+    
+    <div id="tooplate_main">
+
+		<div id="content" class="float_l">
+      <div align="center"><h3><strong>Liste des enseigants-chercheurs permanents</strong></h3></div>
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Rechercher Nom & Prenom">
+
+      <table id="myTable">
+        <tr class="header">
+          <th>Nom & Prenom</th>
+          <th>Grade</th>
+          <th>Specialite</th>
+          <th>Axe de recherche</th>
+        </tr>
+        <tr>
+          <td>ER-RAKI Salah </td>
+          <td>PH</td>
+          <td>Physique, Energetique, Agro-meteorologie</td>
+          <td>*	Modelisation des transferts</br>*	Mesures et controle des procedes</td>
+        </tr>
+        <tr>
+          <td>CHEHOUANI Hassan</td>
+          <td>PES</td>
+          <td>Energetique</td>
+          <td>*	Modelisation des transferts</br>*	Mesures et controle des procedes</td>
+        </tr>
+        <tr>
+          <td>BELAQZIZ Mohamed</td>
+          <td>PA</td>
+          <td>Procedes et materiaux pour l energie</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>IBANNAIN Mohamed</td>
+          <td>PES</td>
+          <td>Materiaux et Microelectronique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>BOURIAL Abdellatif</td>
+          <td>PES</td>
+          <td>Instrumentation</td>
+          <td>*	Mesures et controle des procedes</td>
+        </tr>
+        <tr>
+          <td>MIMOUNI Zineb</td>
+          <td>PES</td>
+          <td>Rheologie</td>
+          <td>*	Modelisation des transferts</td>
+        </tr>
+        <tr>
+          <td>BAKRIM M hamed</td>
+          <td>PES</td>
+          <td>Traitement du signal et d images</td>
+          <td>*	Modelisation des transferts</td>
+        </tr>
+        <tr>
+          <td>DOUAMNA Samira</td>
+          <td>PA</td>
+          <td>Energetique</td>
+          <td>*	Modelisation des transferts</td>
+        </tr>
+        <tr>
+          <td>EL MOTASSADEQ Ahmed</td>
+          <td>PES</td>
+          <td>Instrumentation optique</td>
+          <td>*	Mesures et controle des procedes</td>
+        </tr>
+        <tr>
+          <td>CHAIBI Nadia</td>
+          <td>PES</td>
+          <td>Genie des procedes</td>
+          <td>*	Mesures et controle des procedes</td>
+        </tr>
+        <tr>
+          <td>BENHAMOU Brahim</td>
+          <td>PES</td>
+          <td>Energetique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</br>* Modelisation des transferts </td>
+        </tr>
+        <tr>
+          <td>BRAKEZ Abderrahim</td>
+          <td>PES</td>
+          <td>Energetique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>NAFIRI Naima</td>
+          <td>PA</td>
+          <td>Energetique</td>
+          <td>* Modelisation des transferts</br>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>HAMDI Hassan</td>
+          <td>PES</td>
+          <td>Energetique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>IDLIMAM Ali</td>
+          <td>PES</td>
+          <td>Energetique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        <tr>
+          <td>LAMHARRAR Abdelkader</td>
+          <td>PA</td>
+          <td>Energetique</td>
+          <td>*	Procedes et materiaux pour l energie et efficacite energetique</td>
+        </tr>
+        
+      </table>
+            
+            <div class="cleaner h40"></div>
+            
+           
+        
+        </div>
+        
+        <div id="sidebar" class="float_r">
+        	<a href="#"><img src="images/m1.jpg" alt="image" /></a>
+            
+            <div class="cleaner h40"></div>
+            
+            <div align="center"><h5>Liste des enseignants-chercheurs et chercheurs associes </h5></div>
+            <div style="overflow-x:auto;">
+              <table id="resp">
+                <tr>
+                  <th>Nom</th>
+                  <th>Prenom</th>
+                  <th>Specialite</th>
+                  <th>Axe de recherche</th>
+                  <th>Ettablissement d attache</th>
+                </tr>
+                <tr>
+                  <td>SOBHY </td>
+                  <td>Issam</td>
+                  <td>Efficacite energetique</td>
+                  <td>Efficacite energetique</td>
+                  <td>Professeur Assistant<br>Ecole Nationale d Architecture<br>de Marrakech ENAM</td>
+                  
+                </tr>
+                <tr>
+                  <td>MOUYAL </td>
+                  <td>Elie</td>
+                  <td>Architecte prive DPLG</td>
+                  <td>Efficacite energetique</td>
+                  <td>Cabinet MOUYAL Architecte</td>
+                </tr>
+                <tr>
+                  <td>MOUKMIR</td>
+                  <td>Oussama</td>
+                  <td>Entrepreneur</td>
+                  <td>Efficacite energetique</td>
+                  <td>ARGILEX Entreprise d eco-construction</td>
+                </tr>
+                <tr>
+                  <td>ELKILANI</td>
+                  <td>Taoufiq</td>
+                  <td>Ingenieur Entrepreneur</td>
+                  <td>Mecanique</td>
+                  <td>CadVal,societe de conception et fabrication mecanique</td>
+                </tr>
+              </table>
+            </div>
+            <div class="cleaner h40"></div>
+            <a href="#"><img src="images/mbrr.jpg" alt="image" /></a>
+            
+        </div>        
+        
+       
+        <div class="cleaner"></div>
+        <div id="ftt">
+          <div id="tooplate_bottom">
+              <div class="col one_fourth">
+                  <h4>Pages</h4>
+                  <ul class="footer_list">
+                    <li><a href="login.php">Authentification</a></li>
+                      <li><a href="index.html">Accueil</a></li>
+                      <li><a href="about.html">ProcEDE</a></li>
+                      <li><a href="rech.html">Recherche</a></li>
+             
+                      <li><a href="contact.html">Contact</a></li>
+                   
+                  </ul>
+              </div>
+              <div class="col one_fourth">
+                  <h4>Abonnez-vous</h4>	
+                  
+                  <div class="footer_social_button">
+                      <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+                      <a href="#"><img src="images/flickr.png" alt="flickr" /></a>
+                      <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+                      <a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+                      <a href="#"><img src="images/feed.png" alt="rss" /></a>
+                  </div>
+                  
+              </div>
+              <div class="col one_fourth">
+                  <h4>ProcEDE</h4>
+                  <ul class="twitter_post">
+                      <li>Laboratoire des Procedes, Metrologie et des Materiaux pour l Energie et l Environnement</li>
+                  </ul>
+              </div>
+              <div class="col one_fourth no_margin_right">
+              <img class="ftimg" src="images/ft1.png">
+              </div>
+              <div class="cleaner"></div>
+              
+          </div> <!-- END of tooplate_bottom -->
+      </div> <!-- END of tooplate_main -->    
+      
+  </div> <!-- END of tooplate_wrapper -->
+
+</body>
+</html>

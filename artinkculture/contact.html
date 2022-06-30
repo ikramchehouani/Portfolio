@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html id="animatedbg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Ce site est destiné aux amoureux de l'art primitif et curieux de la découverte">
+  <meta name="keywords" content="tatouage,art,ideas">
+  <meta name="author" content="Ikram Chehouani">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Ink Culture</title>
+  <link rel="icon" type="image/png" href="images/siteicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="myjs.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="mysidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"><i class="fa fa-fw fa-home" aria-hidden="true"></i>Home</a>
+            <a href="history.html"><i class="fa fa-trophy" aria-hidden="true"></i>History</a>             
+            <a href="material.html"><i class="fa fa-briefcase" aria-hidden="true"></i>Materials</a>
+            <a href="artists.html"><i class="fa fa-users" aria-hidden="true"></i>Artists</a>
+            <a href="contact.html" class="actif"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i>Contact</a>
+        </nav>
+        <span id="burgermenuicon" onclick="openNav()">&#9776;</span>
+        <div class="title">
+            <span style="--i:1">a</span>
+            <span style="--i:2">r</span>
+            <span style="--i:3">t</span>
+            <span style="--i:4">i</span>
+            <span style="--i:5">n</span>
+            <span style="--i:6">k</span>
+            <span style="--i:7">c</span>
+            <span style="--i:8">u</span>
+            <span style="--i:9">l</span>
+            <span style="--i:10">t</span>
+            <span style="--i:11">u</span>
+            <span style="--i:12">r</span>
+            <span style="--i:13">e</span>
+        </div>
+        <div id="ctc" class="intro">
+            <h1>Contact Us</h1>
+            <p>Leave us a message if you have any suggestions or need more informations &#128523;</p>
+        </div>   
+    </header>
+    <main>
+        <section class="first">
+            <form onsubmit="Thankies()" action="index.html">
+                <fieldset>
+                    <legend>Personal informations</legend>
+                    <label for="fname">First name</label>
+                    <input type="text" placeholder="Ikram" name="fname" id="fname" required>
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" placeholder="Chehouani" name="lname" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="ikram_chehouani@outlook.fr"name="email"required>
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                      <option value="female">Female</option>
+                      <option value="male">Male</option>
+                      <option value="nogender">Prefer not to precise</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>More details</legend>
+                    <label for="favcolor">Select your favorite color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#12748d">
+                    <label for="page">Enter your Linkedin Url</label>
+                    <input type="url" id="page" name="page">
+                    <input type="radio" id="yesT" name="tattoo" value="yes">
+                    <label for="yes">Yes i am tattooed</label>
+                    <input type="radio" id="noT" name="tattoo" value="no">
+                    <label for="no">No I'm not</label>
+                    <input type="radio" id="Soon" name="tattoo" value="soon">
+                    <label for="soon">I might get that soon</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Note</legend>
+                    <label for="rate">Rate my website</label>
+                    <input type="range" id="rate" name="rate" min="0" max="20">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="A vos claviers"></textarea>
+                </fieldset>
+                <input id="bone" type="reset" value="Reset">
+                <input id="btwo" type="submit" value="Submit">
+            </form>
+        </section>
+        <section class="second">
+                <img src="images/me." alt="Ikram Chehouani">
+                <h1>Ikram Chehouani</h1>
+                <h2>Developer & Realisator</h2>
+                <h3>Esaip Angers</h3>
+                <a href="mailto:ikram_chehouani@outlook.fr" method="GET">Contact</button>
+        </section>
+    </main>
+</body>
+</html>

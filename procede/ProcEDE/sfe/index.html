@@ -1,0 +1,202 @@
+<!DOCTYPE html >
+<html>
+<head>
+<title>ProcEDE</title>
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/style.css" />
+<!--for calendar--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>   
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "tooplate_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script> 
+
+</head>
+
+<body>
+
+<div id="tooplate_wrapper">
+	
+    <div id="tooplate_header">
+        <div id="site_title"><h1><a href="index.html"></a></h1></div>
+        <div id="tooplate_menu" class="ddsmoothmenu">
+            <ul>
+                <li><a href="index.html" class="selected" style="margin-left: 60px;">Accueil</a></li>
+                <li><a>ProcEDE</a>
+                    <ul>
+                        <li><a href="about.html">Presentation generale</a></li>
+                        
+                        <li><a href="mbr.html">Membres de la structure</a></li>
+                        <li><a href="adr.html">Adresses</a></li>
+                    
+                        
+                  </ul>
+                </li>
+                <li><a>Recherche</a>
+                    <ul>
+                        <li><a href="rech.html">Organisation generale</a></li>
+                        <li><a href="t1.html">1. Modelisation des transferts </a></li>
+                        <li><a href="t2.html">2. Mesures et controle des procedes</a></li>
+                        <li><a href="t3.html">3. Procedes et materiaux pour l energie et efficacite energetique </a></li>
+                  </ul>
+                </li>
+                <li><a href="doc.html">Liste des doctorants</a></li>
+                
+                
+                
+            </ul>
+            
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- END of tooplate_header -->
+    
+    <div id="tooplate_main">
+		<div id="slider-wrapper">
+        
+            <div id="slider" class="nivoSlider">
+                <img src="images/a1.jpg" alt="1st" />
+                <img src="images/a2.jpg" alt="2nd" title="Appareil de mesure permettant de visualiser les variations d'une tension." /></a>
+                <img src="images/a3.jpg" alt="3rd" />
+                <img src="images/a4.jpg" alt="4rd" title="Outils" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
+        
+        </div>
+        <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+        <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+        </script>
+        
+        
+        
+        <div class="col one_third no_margin_right">
+        	<h4><strong>A propos du ProcEDE</strong></h4>
+            <p>Le laboratoire des Procedes pour l Energie durable et Environnement (ProcEDE) est actuellement reparti sur trois etablissements de l universite Cadi Ayyad qui sont la Faculte des Sciences et Techniques, la Faculte des Sciences Semlalia et l Ecole Normale Superieure.</p>
+            <div align="right"><u><a href="about.html">En savoir plus</a></u></div>
+        </div>
+        
+        <div class="cleaner h30"></div>
+        
+
+
+		<div class="cleaner"></div>
+        
+        <div class="col one_third">
+            <h5>Actualites</h5></br>
+            <div class="rp_pp">
+                <a>Soutenance de These de doctorat de Mme Fatima-Ezzahra LAFQIR </a>
+                <h4>Le laboratoire PROCEDE a le plaisir de vous annoncer la soutenance de these de doctorat de Mme Fatima-Ezzahra LAFQIR intitulee " ETUDE DU COMPORTEMENT THERMO-AERAULIQUE ET DES PERFORMANCES ENERGETIQUES D UNE MAISON PASSIVE DANS LES SIX CLIMATS DU MAROC"</h4>
+                <p>La soutenance aura lieu le samedi 29 mai a 9h30 a la Faculte des Sciences Semlalia</p>
+                <div class="cleaner"></div>
+            </div>
+
+           
+        </div>
+        
+        <div class="col one_third">
+            <h5>Actualites</h5>
+            <div class="rp_pp"></br>
+                <a>Media</a>
+                <h4>Nouvelle video: Developpement de l ebullition en film autour d un recepteur solaire conique. These de Dylan Lorfing, collaboration PROMES-INSA Toulouse (laboratoire TBI).</h4>
+                <p>04 Juin 2021</p>
+                <div class="cleaner"></div>
+            </div>
+            <div class="rp_pp">
+                <a>Soutenance de These de Mr Haitham LAKHDAR </a>
+                <h4>Haitham LAKHDAR soutiendra sa these intitulee " Methode optique hybride pour la caracterisation d un champ d heliostats "</h4>
+                <p>Le 25 Juin 2021 a 14h a La faculte des Sciences et Techniques</p>
+                <div class="cleaner"></div>
+            </div>
+
+        </div>
+        
+        <div class="col one_third no_margin_right">
+        	<div class="calendar">
+                <div class="month">
+                  <i class="fas fa-angle-left prev"></i>
+                  <div class="date">
+                    <h1></h1>
+                    <p></p>
+                  </div>
+                  <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays">
+                  <div>Lun</div>
+                  <div>Mar</div>
+                  <div>Mer</div>
+                  <div>Jeu</div>
+                  <div>Ven</div>
+                  <div>Sam</div>
+                  <div>Dim</div>
+                </div>
+                <div class="days"></div>
+              </div>
+            
+        
+            <script src="js/script.js"></script>
+        </div>
+        <div class="cleaner"  ></div>
+        <div id="ftt">
+        <div id="tooplate_bottom">
+            <div class="col one_fourth">
+                <h4>Pages</h4>
+                <ul class="footer_list">
+                    <li><a href="login.php">Authentification</a></li>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">ProcEDE</a></li>
+                    <li><a href="rech.html">Recherche</a></li>
+               
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col one_fourth">
+                <h4>Abonnez-vous</h4>	
+                
+                <div class="footer_social_button">
+                    <a href="#"><img src="images/facebook.png" alt="facebook" /></a>
+                    <a href="#"><img src="images/flickr.png" alt="flickr" /></a>
+                    <a href="#"><img src="images/twitter.png" alt="twitter" /></a>
+                    <a href="#"><img src="images/youtube.png" alt="youtube" /></a>
+                    <a href="#"><img src="images/feed.png" alt="rss" /></a>
+                </div>
+                
+            </div>
+            <div class="col one_fourth">
+                <h4>ProcEDE</h4>
+                <ul class="twitter_post">
+                    <li>Laboratoire des Procedes, Metrologie et des Materiaux pour l Energie et l Environnement</li>
+                </ul>
+            </div>
+            <div class="col one_fourth no_margin_right">
+            <img class="ftimg" src="images/ft1.png">
+            </div>
+            <div class="cleaner"></div>
+            
+        </div> <!-- END of tooplate_bottom -->
+    </div> <!-- END of tooplate_main -->    
+    
+</div> <!-- END of tooplate_wrapper -->
+    
+	
+
+</body>
+</html>
+ 

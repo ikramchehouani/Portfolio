@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CocoVoit</string>
+    <string name="sign">Inscription</string>
+    <string name="log">Connexion</string>
+    <string name="page2">INSCRIPTION</string>
+    <string name="name">Nom</string>
+    <string name="middlename">Prénom</string>
+    <string name="password">Mot de passe</string>
+    <string name="email">Email</string>
+    <string name="tel">N° Téléphone</string>
+    <string name="birth">Date de naissance</string>
+    <string name="namesaisie">Saisir votre nom</string>
+    <string name="prenomsaisie">Saisir votre prénom</string>
+    <string name="emailsaisie">ichehouani.cpi2024@esaip.org</string>
+    <string name="telsaisie">0609115347</string>
+    <string name="pwd">Saisir un password</string>
+    <string name="confirmpwd">Confirmer password</string>
+    <string name="gender">Genre</string>
+    <string name="smoking">Fumeur</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="car">Voiture</string>
+    <string name="incase">Si oui</string>
+    <string name="modelcar">Précisez le modèle</string>
+    <string-array name="genderlist">
+        <item>Femme</item>
+        <item>Homme</item>
+        <item>Préfère ne pas préciser</item>
+    </string-array>
+    <string name="animals">Animaux</string>
+    <string name="signup">S\'inscrire</string>
+    <string name="page3">Connexion</string>
+    <string name="choice">Vous n\'avez pas de compte?</string>
+    <string name="signin">Se connecter</string>
+    <string name="start">Départ</string>
+    <string name="finish">Arrivée</string>
+    <string name="pickeruno">Choisir lieu de départ</string>
+    <string name="pickerdos">Choisir lieu d\'arrivée</string>
+
+</resources>
